@@ -4,15 +4,18 @@ import './styles.css'
 export default function Talk(props){
     return(
         <div className="talk-container">
-            <div className="date">
-                <h1>{props.day}</h1>
-                <h2>{props.month}</h2>
+            <div className="talk-content">
+                <div className="date">
+                    <p>{props.date}</p>
+                </div>
+                <h3 className="event-title">{props.title}</h3>
+                <p className="time">{props.time}</p>
             </div>
-            <h3 className="event-title">{props.title}</h3>
-            <div className="event-time">
-                <p className="hour">{props.hour}</p>
-                <p className="speaker">{props.speaker}</p>
-            </div>
+            {props.link?
+                <a className="link" href={props.link} alt="Participar">Clique para participar</a>
+                :<p className="without-link">Link disponível em breve</p>
+            }
+            
         </div>
     )
 }

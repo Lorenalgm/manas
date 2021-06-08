@@ -1,30 +1,17 @@
 [
     {
-        "day":"14",
-        "month":"MAIO",
-        "title":"Do UI ao código",
-        "hour":"17:00h - 18:00h",
-        "speaker":"Lorena"
+        "avatar":"https://i.imgur.com/vSPDb8y.jpg",
+        "name":"Lorena Montes",
+        "bio":"Desenvolvedora na Stone, estudante do 9º semestre do curso de Ciência da Computação na UNIFAP e voluntária no projeto Meninas na computação."
     },
     {
-        "day":"14",
-        "month":"JUNHO",
-        "title":"Consultas com Pandas",
-        "hour":"17:00h - 18:00h",
-        "speaker":"Gabi"
+        "avatar":"https://i.imgur.com/vSPDb8y.jpg",
+        "name":"Lorena Montes",
+        "bio":"Desenvolvedora na Stone, estudante do 9º semestre do curso de Ciência da Computação na UNIFAP e voluntária no projeto Meninas na computação."
     },
     {
-        "day":"14",
-        "month":"AGOSTO",
-        "title":"Introdução à Python",
-        "hour":"17:00h - 18:00h",
-        "speaker":"Lucas"
-    },
-    {
-        "day":"14",
-        "month":"SETEMBRO",
-        "title":"Configurando bot no slack",
-        "hour":"17:00h - 18:00h",
-        "speaker":"Luanda"
+        "avatar":"https://i.imgur.com/vSPDb8y.jpg",
+        "name":"Lorena Montes",
+        "bio":"Desenvolvedora na Stone, estudante do 9º semestre do curso de Ciência da Computação na UNIFAP e voluntária no projeto Meninas na computação."
     }
 ]
