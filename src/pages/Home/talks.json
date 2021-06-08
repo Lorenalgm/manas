@@ -1,0 +1,30 @@
+[
+    {
+        "day":"14",
+        "month":"MAIO",
+        "title":"Do UI ao código",
+        "hour":"17:00h - 18:00h",
+        "speaker":"Lorena"
+    },
+    {
+        "day":"14",
+        "month":"JUNHO",
+        "title":"Consultas com Pandas",
+        "hour":"17:00h - 18:00h",
+        "speaker":"Gabi"
+    },
+    {
+        "day":"14",
+        "month":"AGOSTO",
+        "title":"Introdução à Python",
+        "hour":"17:00h - 18:00h",
+        "speaker":"Lucas"
+    },
+    {
+        "day":"14",
+        "month":"SETEMBRO",
+        "title":"Configurando bot no slack",
+        "hour":"17:00h - 18:00h",
+        "speaker":"Luanda"
+    }
+]
