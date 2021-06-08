@@ -6,8 +6,11 @@ body, html{
 :root{
   --background: #000000;
   --font: #FFFFFF;
-  --primary: #34CB79;
-  --secondary: #ffffffd1;
+  --primary: #A000D8;
+  --secondary: #F8C100;
+  --card: #323131;
+  --primary-gradient:radial-gradient(107.43% 261.43% at 105.59% 126.46%, #E900FD 0%, #000000 100%);
+  --secondary-gradient: radial-gradient(107.43% 261.43% at 105.59% 126.46%, #E900FD 0%, #F8C100 100%);
 }
 
 
@@ -15,4 +18,5 @@ body{
   font-family: 'Roboto', sans-serif;
   background-color: var(--background);
   color: var(--font);
+  font-size: 16px;
 }

@@ -16,8 +16,8 @@ export default function Home(){
             <div className="hero-container">
                 <div className="hero-content">
                     <h1>M.A.N.A.S</h1>
-                    <h3>Mulheres amapaenses nas áreas de STEAM</h3>
-                    <a href="#talks" alt="Ver programação">Ver programação completa</a>
+                    <h3 className="subtitle">Mulheres amapaenses nas áreas de STEAM</h3>
+                    <a className="button-talks" href="#talks" alt="Ver programação">Ver programação completa</a>
                     <div className="info-content">
                         <h3><img src={calendario} alt="Calendário" />21 a 25 de junho</h3>
                         <h3><img src={online} alt="Online" /> Online e gratuito</h3>

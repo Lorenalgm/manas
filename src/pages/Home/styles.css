@@ -1,0 +1,61 @@
+.home-container{
+    text-align: center;
+}
+
+.home-container .hero-container{
+    /* background-color: var(--primary); */
+}
+
+.home-container .hero-content h1{
+    font-size: 3rem;
+}
+
+.home-container .hero-content .subtitle{
+    color: var(--secondary);
+}
+
+.home-container .button-talks{
+    background-color: var(--primary);
+    padding: 1em;
+    width: 13em;
+    border-radius: .4em;
+    color: var(--font);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 2em 0;
+}
+
+.home-container .info-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-container .info-content h3{
+    display: flex;
+    align-items: center;
+}
+
+.home-container .title-container{
+    margin: 3em 0;
+}
+
+.home-container .talks-list{
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr;
+    align-content: center;
+}
+
+.home-container .talks-container{
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr;
+    align-content: center;
+}
+
+.home-container .made-by-container img{
+    width: 15em;
+}

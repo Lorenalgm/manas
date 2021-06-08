@@ -1,0 +1,25 @@
+.speaker-container{
+    background-color: var(--card);
+    border-radius: 0.4em;
+    padding: 2em;
+}
+
+.speaker-container .speaker-avatar{
+    width: 8em;
+    height: 8em;
+    border-radius: .4em;
+    position: relative;
+    bottom: 6em;
+}
+
+.speaker-container .speaker-name{
+    font-size: 2rem;
+    background: linear-gradient(to right, var(--secondary), var(--primary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.speaker-container .speaker-bio{
+    text-align: left;
+}
