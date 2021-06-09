@@ -1,0 +1,26 @@
+.talk-container{
+    background-color: var(--card);
+    border-radius: .4em;
+    padding: 1em;
+}
+
+.talk-container .date{
+    background-color: var(--card-secondary);
+    padding: .1em 1em;
+    width: 7em;
+    margin: 0 auto;
+    border-radius: .4em;
+    font-weight: bold;
+}
+
+.talk-container .event-title{
+    background: linear-gradient(to right, var(--secondary), var(--primary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+}
+
+.talk-container .link{
+    font-weight: bold;
+    color: var(--secondary);
+}

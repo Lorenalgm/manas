@@ -9,6 +9,7 @@ body, html{
   --primary: #A000D8;
   --secondary: #F8C100;
   --card: #323131;
+  --card-secondary: #616161;
   --primary-gradient:radial-gradient(107.43% 261.43% at 105.59% 126.46%, #E900FD 0%, #000000 100%);
   --secondary-gradient: radial-gradient(107.43% 261.43% at 105.59% 126.46%, #E900FD 0%, #F8C100 100%);
 }

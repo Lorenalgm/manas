@@ -3,7 +3,11 @@
 }
 
 .home-container .hero-container{
-    /* background-color: var(--primary); */
+    height: 45em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(107.43% 261.43% at 105.59% 126.46%, var(--primary) 0%, var(--background) 100%);
 }
 
 .home-container .hero-content h1{
@@ -47,6 +51,7 @@
     grid-gap: 2em;
     grid-template-columns: 1fr;
     align-content: center;
+    margin: 0 1em;
 }
 
 .home-container .talks-container{
@@ -54,6 +59,32 @@
     grid-gap: 2em;
     grid-template-columns: 1fr;
     align-content: center;
+    margin-bottom: 6em;
+}
+
+.home-container .about-container{
+    background: linear-gradient(to right, var(--background), var(--primary));
+    height: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container .about-container h1{
+    width: 80%;
+    font-weight: normal;
+}
+
+.home-container .about-container strong{
+    color: var(--secondary);
+}
+
+.home-container .speakers-list{
+    margin: 0 1em;
+}
+
+.home-container .made-by-container{
+    margin-bottom: 6em;
 }
 
 .home-container .made-by-list{
