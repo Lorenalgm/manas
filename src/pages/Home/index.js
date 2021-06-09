@@ -53,9 +53,12 @@ export default function Home(){
                 </div>
             </div>
             <div className="made-by-container">
-                <img src={wie} alt="WIE Unifap" />
-                <img src={meninasnacomputacao} alt="Meninas na Computação" />
-                <img src={minerva} alt="Projeto Minerva" />
+                <h1 className="title-container">Realização</h1>
+                <div className="made-by-list">
+                    <img src={wie} alt="WIE Unifap" />
+                    <img src={meninasnacomputacao} alt="Meninas na Computação" />
+                    <img src={minerva} alt="Projeto Minerva" />
+                </div>
             </div>
         </div>
     )

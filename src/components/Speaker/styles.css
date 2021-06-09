@@ -1,15 +1,24 @@
 .speaker-container{
+    width: 20em;
+    height: 13em;
+    margin: 0 auto;
     background-color: var(--card);
     border-radius: 0.4em;
     padding: 2em;
+    margin-bottom: 7em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .speaker-container .speaker-avatar{
-    width: 8em;
-    height: 8em;
+    width: 10em;
+    height: 10em;
     border-radius: .4em;
-    position: relative;
-    bottom: 6em;
+    position: absolute;
+    bottom: 11em;
 }
 
 .speaker-container .speaker-name{
@@ -18,6 +27,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0;
+    margin-top: 3em;
 }
 
 .speaker-container .speaker-bio{
