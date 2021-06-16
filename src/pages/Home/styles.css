@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .home-container{
     text-align: center;
 }
@@ -102,7 +106,7 @@
     width: 15em;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 960px) {
     .hero-content, .talks-container, .made-by-container {
         margin: 0 15em;
     }
@@ -112,8 +116,23 @@
         justify-content: start;
     }
 
+    .home-container .hero-content h1{
+        font-size: 4rem;
+        line-height: .5em;
+    }
+    
+    .home-container .hero-content .subtitle{
+        font-size: 1.5rem;
+        line-height: 0;
+        margin-bottom: 2em;
+    }
+
     .home-container .info-content{
-        align-items: flex-start;
+        flex-direction: row;
+    }
+
+    .home-container .info-content h3{
+        width: 36%;
     }
 
     .home-container .title-container{

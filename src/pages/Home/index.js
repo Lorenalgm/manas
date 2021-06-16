@@ -19,7 +19,7 @@ export default function Home(){
                     <h3 className="subtitle">Mulheres amapaenses nas áreas de STEAM</h3>
                     <a className="button-talks" href="#talks" alt="Ver programação">Ver programação completa</a>
                     <div className="info-content">
-                        <h3><img src={calendario} alt="Calendário" />21 a 25 de junho</h3>
+                        <h3><img src={calendario} alt="Calendário" />21 a 25<br></br> de junho</h3>
                         <h3><img src={online} alt="Online" /> Online e gratuito</h3>
                     </div>
                 </div>
