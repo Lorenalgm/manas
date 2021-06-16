@@ -38,7 +38,7 @@ export default function Home(){
                 </div>
             </div>
             <div className="about-container">
-                <h1>Semana online e gratuita <strong>Para promover e incentivar mulheres nas exatas</strong></h1>
+                <h1>Semana online e gratuita<br></br><strong>Para promover e incentivar mulheres nas exatas</strong></h1>
             </div>
             <div className="talks-container">
                 <h1 className="title-container">Palestrantes</h1>
@@ -55,9 +55,9 @@ export default function Home(){
             <div className="made-by-container">
                 <h1 className="title-container">Realização</h1>
                 <div className="made-by-list">
-                    <img src={wie} alt="WIE Unifap" />
-                    <img src={meninasnacomputacao} alt="Meninas na Computação" />
-                    <img src={minerva} alt="Projeto Minerva" />
+                    <a href="https://www.instagram.com/wieunifap/" alt="WIE Unifap" target="_blank"><img src={wie} alt="WIE Unifap" /></a>
+                    <a href="https://www.instagram.com/meninasnacomputacao/" alt="Meninas na Computação" target="_blank"><img src={meninasnacomputacao} alt="Meninas na Computação" /></a>
+                    <a href="https://www.instagram.com/minervaprojeto/" alt="Projeto Minerva" target="_blank"><img src={minerva} alt="Projeto Minerva" /></a>
                 </div>
             </div>
         </div>

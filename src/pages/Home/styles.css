@@ -68,7 +68,7 @@ html{
 
 .home-container .about-container{
     background: linear-gradient(to right, var(--background), var(--primary));
-    height: 15em;
+    height: 25em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,6 +125,24 @@ html{
         font-size: 1.5rem;
         line-height: 0;
         margin-bottom: 2em;
+    }
+
+    .home-container .talk-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+        padding: 1em 2em;
+    }
+
+    .home-container .talk-container .date{
+        text-align: center;
+        padding: .5em .2em;
+        margin: 0;
+    }
+
+    .home-container .talk-container .date p{
+        margin: 0;
     }
 
     .home-container .info-content{
