@@ -1,20 +1,32 @@
 [
     {
-        "title":"Primeiros passos no desenvolvimento web",
+        "title":"Webinar: Aprendizado profundo: de humanos e de máquinas",
         "date":"21 de junho",
-        "time":"19:00 - 20:30",
+        "time":"19:00h",
         "link":""
     },
     {
-        "title":"Primeiros passos no desenvolvimento web",
-        "date":"21 de junho",
-        "time":"19:00 - 20:30",
+        "title":"Webinar: A importância do olhar técnico na engenharia urbana",
+        "date":"22 de junho",
+        "time":"19:00h",
         "link":""
     },
     {
-        "title":"Primeiros passos no desenvolvimento web",
-        "date":"21 de junho",
+        "title":"Oficina: Primeiros passos no desenvolvimento web",
+        "date":"23 de junho",
         "time":"19:00 - 20:30",
+        "link":""
+    },
+        {
+        "title":"Webinar: A participação das mulheres no desenvolvimento de jogos",
+        "date":"24 de junho",
+        "time":"19:00h",
+        "link":""
+    },
+        {
+        "title":"Vídeo de encerramento",
+        "date":"25 de junho",
+        "time":"19:00h",
         "link":""
     }
 ]
