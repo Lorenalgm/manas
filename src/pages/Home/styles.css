@@ -80,7 +80,11 @@
 }
 
 .home-container .speakers-list{
-    margin: 0 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .home-container .made-by-container{
@@ -91,8 +95,37 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .home-container .made-by-list img{
     width: 15em;
+}
+
+@media only screen and (min-width: 700px) {
+    .hero-content, .talks-container, .made-by-container {
+        margin: 0 15em;
+    }
+
+    .home-container .hero-container{
+        text-align: left;
+        justify-content: start;
+    }
+
+    .home-container .info-content{
+        align-items: flex-start;
+    }
+
+    .home-container .title-container{
+        text-align: left;
+    }
+
+    .home-container .made-by-list{
+        flex-direction: row;
+    }
+
+    .home-container .speakers-list{
+        flex-direction: row;
+    }
+    
 }

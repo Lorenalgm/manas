@@ -1,7 +1,6 @@
 .speaker-container{
     width: 15em;
     height: 13em;
-    margin: 0 auto;
     background-color: var(--card);
     border-radius: 0.4em;
     padding: 2em;
