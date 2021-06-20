@@ -1,5 +1,15 @@
 [
     {
+        "avatar":"https://i.imgur.com/uV4plVE.jpg",
+        "name":"Letícia Rittner",
+        "bio":"Mestre em Engenharia de Transportes pela Coppe/UFRJ. Atualmente é professora do Magistério Superior, vice-coordenadora do Curso de Engenharia Civil e vice-coordenadora do Departamento de Ciências Exatas e Tecnológicas na UNIFAP."
+    },
+    {
+        "avatar":"https://i.imgur.com/rJBpIN5.png",
+        "name":"Cristina Baddini",
+        "bio":"Mestre em Engenharia de Transportes pela Coppe/UFRJ. Atualmente é professora do Magistério Superior, vice-coordenadora do Curso de Engenharia Civil e vice-coordenadora do Departamento de Ciências Exatas e Tecnológicas na UNIFAP."
+    },
+    {
         "avatar":"https://i.imgur.com/vSPDb8y.jpg",
         "name":"Lorena Montes",
         "bio":"Desenvolvedora na Stone, estudante do 9º semestre do curso de Ciência da Computação na UNIFAP e voluntária no projeto Meninas na computação."
@@ -8,10 +18,5 @@
         "avatar":"https://i.imgur.com/t2OGgFc.jpg",
         "name":"Ana Melém",
         "bio":"Estudante do 3º semestre do curso de Ciência da Computação na UNIFAP e voluntária no projeto Meninas na computação."
-    },
-    {
-        "avatar":"https://i.imgur.com/vSPDb8y.jpg",
-        "name":"Lorena Montes",
-        "bio":"Desenvolvedora na Stone, estudante do 9º semestre do curso de Ciência da Computação na UNIFAP e voluntária no projeto Meninas na computação."
     }
 ]
