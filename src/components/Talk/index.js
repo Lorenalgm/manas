@@ -12,7 +12,7 @@ export default function Talk(props){
                 <p className="time">{props.time}</p>
             </div>
             {props.link?
-                <a className="link" href={props.link} alt="Participar">Clique para participar</a>
+                <a className="link" href={props.link} alt="Participar" target="_blank" rel="noreferrer">Clique para participar</a>
                 :<p className="without-link">Link disponível em breve</p>
             }
             

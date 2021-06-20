@@ -59,6 +59,7 @@ export default function Home(){
                     <a href="https://www.instagram.com/meninasnacomputacao/" alt="Meninas na Computação" target="_blank" rel="noreferrer"><img src={meninasnacomputacao} alt="Meninas na Computação" /></a>
                     <a href="https://www.instagram.com/minervaprojeto/" alt="Projeto Minerva" target="_blank" rel="noreferrer"><img src={minerva} alt="Projeto Minerva" /></a>
                 </div>
+                <p className="contact"><strong>Contato:</strong> projetomanasap@gmail.com</p>
             </div>
         </div>
     )

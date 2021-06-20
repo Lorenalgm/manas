@@ -1,6 +1,6 @@
 .speaker-container{
-    width: 15em;
-    height: 13em;
+    width: 18em;
+    height: 15em;
     background-color: var(--card);
     border-radius: 0.4em;
     padding: 2em;
@@ -17,7 +17,7 @@
     height: 10em;
     border-radius: .4em;
     position: absolute;
-    bottom: 11em;
+    bottom: 13em;
 }
 
 .speaker-container .speaker-name{

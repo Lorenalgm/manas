@@ -20,6 +20,8 @@ html{
 
 .home-container .hero-content .subtitle{
     color: var(--secondary);
+    margin: 1em auto;
+    width: 60%;
 }
 
 .home-container .button-talks{
@@ -33,6 +35,12 @@ html{
     font-size: 1.2em;
     display: inline-block;
     margin: 2em 0;
+    transition: 2ms;
+}
+
+.home-container .button-talks:hover{
+    background-color: var(--secondary);
+    color: var(--background);
 }
 
 .home-container .info-content{
@@ -84,11 +92,11 @@ html{
 }
 
 .home-container .speakers-list{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
     align-items: center;
-    justify-content: space-around;
 }
 
 .home-container .made-by-container{
@@ -96,14 +104,19 @@ html{
 }
 
 .home-container .made-by-list{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
     align-items: center;
     justify-content: center;
 }
 
 .home-container .made-by-list img{
     width: 15em;
+}
+
+.home-container .contact{
+    margin-top: 5em;
 }
 
 @media only screen and (min-width: 960px) {
@@ -123,9 +136,26 @@ html{
     
     .home-container .hero-content .subtitle{
         font-size: 1.5rem;
-        line-height: 0;
+        width: 100%;
+        /* overflow: hidden; 
+        border-right: .15em solid var(--secondary); 
+        white-space: nowrap; 
+        letter-spacing: .02em; 
+        animation: 
+          typing 2s steps(30, end),
+          blink-caret .5s step-end infinite; */
         margin-bottom: 2em;
     }
+
+    /* @keyframes typing {
+        from { width: 0; }
+        to { width: 100% }
+    }
+    
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: var(--secondary);  }
+    } */
 
     .home-container .talk-container{
         display: flex;
@@ -158,11 +188,11 @@ html{
     }
 
     .home-container .made-by-list{
-        flex-direction: row;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .home-container .speakers-list{
-        flex-direction: row;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     
 }

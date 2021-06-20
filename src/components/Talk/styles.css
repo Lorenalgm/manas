@@ -24,3 +24,7 @@
     font-weight: bold;
     color: var(--secondary);
 }
+
+.talk-container .link:hover{
+    color: var(--primary);
+}
