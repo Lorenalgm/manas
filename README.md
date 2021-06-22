@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-    <h1>M.A.N.A.S</h1>
+    <h1 align="center">M.A.N.A.S</h1>
 
   <p align="center">    
   Mulheres amapaenses na área de STEAM
